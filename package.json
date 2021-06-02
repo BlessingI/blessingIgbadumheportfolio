@@ -1,7 +1,7 @@
 {
   "name": "portfolio-project",
   "version": "0.1.0",
-  "homepage": "https://blessingi.github.io/blessingIgbadumheportfolio",
+  "homepage": "https://BlessingI.github.io/blessingIgbadumheportfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -32,9 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "clean": "gh-pages-clean"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
